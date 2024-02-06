@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct LocationsView: View {
+    
+    // MARK: - Properties
+    
+    let viewmodel: LocationsViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: [GridItem()], spacing: 20.0, content: {
+                    ForEach(viewmodel.locationCellViewModels) { viewModel in
+                        Text("\(viewModel.locationName), \(viewModel.locationCountry)")
+                    }
+                })
+            }
+        }
     }
 }
 
 #Preview {
-    LocationsView()
+    LocationsView(viewmodel: .init())
 }
