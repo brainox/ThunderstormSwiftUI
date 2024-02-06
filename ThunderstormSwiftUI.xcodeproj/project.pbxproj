@@ -15,6 +15,12 @@
 		9B93F05D2B6CF20B0040CD09 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F05C2B6CF20B0040CD09 /* Location.swift */; };
 		9B93F05F2B6D02EB0040CD09 /* LocationCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F05E2B6D02EB0040CD09 /* LocationCellViewModel.swift */; };
 		9B93F0612B7266DC0040CD09 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0602B7266DC0040CD09 /* LocationCell.swift */; };
+		9B93F0642B72711C0040CD09 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0632B72711C0040CD09 /* LocationView.swift */; };
+		9B93F0672B7271430040CD09 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0662B7271430040CD09 /* LocationViewModel.swift */; };
+		9B93F0692B7272980040CD09 /* CurrentConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0682B7272980040CD09 /* CurrentConditionsView.swift */; };
+		9B93F06B2B7272A90040CD09 /* CurrentConditionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F06A2B7272A90040CD09 /* CurrentConditionsViewModel.swift */; };
+		9B93F06D2B7272E30040CD09 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F06C2B7272E30040CD09 /* ForecastView.swift */; };
+		9B93F06F2B7272EC0040CD09 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F06E2B7272EC0040CD09 /* ForecastViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,12 @@
 		9B93F05C2B6CF20B0040CD09 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		9B93F05E2B6D02EB0040CD09 /* LocationCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCellViewModel.swift; sourceTree = "<group>"; };
 		9B93F0602B7266DC0040CD09 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		9B93F0632B72711C0040CD09 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		9B93F0662B7271430040CD09 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		9B93F0682B7272980040CD09 /* CurrentConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsView.swift; sourceTree = "<group>"; };
+		9B93F06A2B7272A90040CD09 /* CurrentConditionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsViewModel.swift; sourceTree = "<group>"; };
+		9B93F06C2B7272E30040CD09 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		9B93F06E2B7272EC0040CD09 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +71,8 @@
 		9B93F0422B6C4A180040CD09 /* ThunderstormSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				9B93F05B2B6CF1D60040CD09 /* Models */,
 				9B93F0532B6C51030040CD09 /* App */,
+				9B93F05B2B6CF1D60040CD09 /* Models */,
 				9B93F0522B6C50F40040CD09 /* Views */,
 				9B93F0512B6C50D60040CD09 /* Resources */,
 				9B93F0492B6C4A1A0040CD09 /* Preview Content */,
@@ -87,6 +99,7 @@
 		9B93F0522B6C50F40040CD09 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9B93F0622B72710A0040CD09 /* Location */,
 				9B93F0542B6C51890040CD09 /* Locations */,
 			);
 			path = Views;
@@ -125,6 +138,27 @@
 				9B93F05C2B6CF20B0040CD09 /* Location.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9B93F0622B72710A0040CD09 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				9B93F0632B72711C0040CD09 /* LocationView.swift */,
+				9B93F0682B7272980040CD09 /* CurrentConditionsView.swift */,
+				9B93F06C2B7272E30040CD09 /* ForecastView.swift */,
+				9B93F0652B72712A0040CD09 /* View Models */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		9B93F0652B72712A0040CD09 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B93F0662B7271430040CD09 /* LocationViewModel.swift */,
+				9B93F06A2B7272A90040CD09 /* CurrentConditionsViewModel.swift */,
+				9B93F06E2B7272EC0040CD09 /* ForecastViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,12 +231,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B93F06B2B7272A90040CD09 /* CurrentConditionsViewModel.swift in Sources */,
+				9B93F0692B7272980040CD09 /* CurrentConditionsView.swift in Sources */,
+				9B93F06D2B7272E30040CD09 /* ForecastView.swift in Sources */,
 				9B93F0612B7266DC0040CD09 /* LocationCell.swift in Sources */,
 				9B93F0572B6C520B0040CD09 /* LocationsView.swift in Sources */,
 				9B93F0442B6C4A180040CD09 /* ThunderstormSwiftUIApp.swift in Sources */,
 				9B93F05D2B6CF20B0040CD09 /* Location.swift in Sources */,
+				9B93F0642B72711C0040CD09 /* LocationView.swift in Sources */,
 				9B93F05A2B6C52BF0040CD09 /* LocationsViewModel.swift in Sources */,
+				9B93F06F2B7272EC0040CD09 /* ForecastViewModel.swift in Sources */,
 				9B93F05F2B6D02EB0040CD09 /* LocationCellViewModel.swift in Sources */,
+				9B93F0672B7271430040CD09 /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

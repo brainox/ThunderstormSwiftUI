@@ -18,7 +18,12 @@ struct LocationsView: View {
             ScrollView {
                 LazyVGrid(columns: [GridItem()], spacing: 20.0, content: {
                     ForEach(viewmodel.locationCellViewModels) { viewModel in
-                        LocationCell(viewModel: viewModel)
+                        NavigationLink {
+                            LocationView(viewModel: viewModel.locationViewModel)
+                        } label: {
+                            LocationCell(viewModel: viewModel)
+                        }
+
                     }
                 })
                 .padding()
