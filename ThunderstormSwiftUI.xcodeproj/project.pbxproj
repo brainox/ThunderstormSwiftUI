@@ -14,6 +14,7 @@
 		9B93F05A2B6C52BF0040CD09 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0592B6C52BF0040CD09 /* LocationsViewModel.swift */; };
 		9B93F05D2B6CF20B0040CD09 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F05C2B6CF20B0040CD09 /* Location.swift */; };
 		9B93F05F2B6D02EB0040CD09 /* LocationCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F05E2B6D02EB0040CD09 /* LocationCellViewModel.swift */; };
+		9B93F0612B7266DC0040CD09 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0602B7266DC0040CD09 /* LocationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9B93F0592B6C52BF0040CD09 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		9B93F05C2B6CF20B0040CD09 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		9B93F05E2B6D02EB0040CD09 /* LocationCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCellViewModel.swift; sourceTree = "<group>"; };
+		9B93F0602B7266DC0040CD09 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				9B93F0562B6C520B0040CD09 /* LocationsView.swift */,
+				9B93F0602B7266DC0040CD09 /* LocationCell.swift */,
 				9B93F0582B6C529C0040CD09 /* View Models */,
 			);
 			path = Locations;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B93F0612B7266DC0040CD09 /* LocationCell.swift in Sources */,
 				9B93F0572B6C520B0040CD09 /* LocationsView.swift in Sources */,
 				9B93F0442B6C4A180040CD09 /* ThunderstormSwiftUIApp.swift in Sources */,
 				9B93F05D2B6CF20B0040CD09 /* Location.swift in Sources */,
