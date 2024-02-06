@@ -16,11 +16,15 @@ struct LocationView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {
             CurrentConditionsView(viewModel: viewModel.currentConditionsViewModel)
+            Divider()
             ForecastView(viewModel: viewModel.forecastViewModel)
         }
+        .navigationTitle(viewModel.locationName)
     }
 }
 
 #Preview {
-    LocationView(viewModel: .init(location: .preview))
+    NavigationView {
+        LocationView(viewModel: .init(location: .preview))
+    }
 }

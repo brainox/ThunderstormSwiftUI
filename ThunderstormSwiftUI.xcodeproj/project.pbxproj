@@ -21,6 +21,8 @@
 		9B93F06B2B7272A90040CD09 /* CurrentConditionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F06A2B7272A90040CD09 /* CurrentConditionsViewModel.swift */; };
 		9B93F06D2B7272E30040CD09 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F06C2B7272E30040CD09 /* ForecastView.swift */; };
 		9B93F06F2B7272EC0040CD09 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F06E2B7272EC0040CD09 /* ForecastViewModel.swift */; };
+		9B93F0712B727D860040CD09 /* ForecastCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0702B727D860040CD09 /* ForecastCellViewModel.swift */; };
+		9B93F0732B727DBB0040CD09 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0722B727DBB0040CD09 /* ForecastCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		9B93F06A2B7272A90040CD09 /* CurrentConditionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsViewModel.swift; sourceTree = "<group>"; };
 		9B93F06C2B7272E30040CD09 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		9B93F06E2B7272EC0040CD09 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		9B93F0702B727D860040CD09 /* ForecastCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCellViewModel.swift; sourceTree = "<group>"; };
+		9B93F0722B727DBB0040CD09 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 				9B93F0632B72711C0040CD09 /* LocationView.swift */,
 				9B93F0682B7272980040CD09 /* CurrentConditionsView.swift */,
 				9B93F06C2B7272E30040CD09 /* ForecastView.swift */,
+				9B93F0722B727DBB0040CD09 /* ForecastCell.swift */,
 				9B93F0652B72712A0040CD09 /* View Models */,
 			);
 			path = Location;
@@ -157,6 +162,7 @@
 				9B93F0662B7271430040CD09 /* LocationViewModel.swift */,
 				9B93F06A2B7272A90040CD09 /* CurrentConditionsViewModel.swift */,
 				9B93F06E2B7272EC0040CD09 /* ForecastViewModel.swift */,
+				9B93F0702B727D860040CD09 /* ForecastCellViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 				9B93F06B2B7272A90040CD09 /* CurrentConditionsViewModel.swift in Sources */,
 				9B93F0692B7272980040CD09 /* CurrentConditionsView.swift in Sources */,
 				9B93F06D2B7272E30040CD09 /* ForecastView.swift in Sources */,
+				9B93F0712B727D860040CD09 /* ForecastCellViewModel.swift in Sources */,
+				9B93F0732B727DBB0040CD09 /* ForecastCell.swift in Sources */,
 				9B93F0612B7266DC0040CD09 /* LocationCell.swift in Sources */,
 				9B93F0572B6C520B0040CD09 /* LocationsView.swift in Sources */,
 				9B93F0442B6C4A180040CD09 /* ThunderstormSwiftUIApp.swift in Sources */,

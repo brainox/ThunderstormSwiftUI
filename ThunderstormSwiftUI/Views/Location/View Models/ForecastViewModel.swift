@@ -9,4 +9,9 @@ import Foundation
 
 struct ForecastViewModel {
     
+    // MARK: - Properties
+    
+    var forecastCellViewModels: [ForecastCellViewModel] {
+        (0..<10).map { _ in ForecastCellViewModel() }
+    }
 }

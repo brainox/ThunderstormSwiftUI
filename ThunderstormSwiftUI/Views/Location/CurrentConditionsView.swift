@@ -14,7 +14,20 @@ struct CurrentConditionsView: View {
     let viewModel: CurrentConditionsViewModel
     
     var body: some View {
-        Text("Current Conditions View")
+        VStack(alignment: .leading) {
+            Text(viewModel.temperature)
+                .font(.largeTitle)
+            Group {
+                HStack {
+                    Image(systemName: "wind")
+                    Text(viewModel.windSpeed)
+                }
+                Spacer()
+                    .frame(height: 10.0)
+                Text(viewModel.summary)
+            }
+            .font(.body)
+        }
     }
 }
 

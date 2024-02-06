@@ -21,6 +21,10 @@ struct LocationViewModel {
         .init()
     }
     
+    var locationName: String {
+        location.name
+    }
+    
     // MARK: - Initialization
     
     init(location: Location) {
