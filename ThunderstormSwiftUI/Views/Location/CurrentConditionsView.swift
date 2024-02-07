@@ -28,6 +28,7 @@ struct CurrentConditionsView: View {
             }
             .font(.body)
         }
+        .padding()
     }
 }
 
