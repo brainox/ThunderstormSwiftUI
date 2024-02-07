@@ -35,5 +35,7 @@ struct AddLocationView: View {
 }
 
 #Preview {
-    AddLocationView(viewModel: .init(), showsAddLocationView: .constant(true))
+    let viewModel = AddLocationViewModel(geocodingService: GeocodingPreviewClient())
+    return AddLocationView(viewModel: viewModel,
+                    showsAddLocationView: .constant(true))
 }

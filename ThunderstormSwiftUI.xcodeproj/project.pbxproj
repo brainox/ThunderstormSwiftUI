@@ -27,6 +27,9 @@
 		9B93F07D2B73A2720040CD09 /* AddLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F07C2B73A2720040CD09 /* AddLocationViewModel.swift */; };
 		9B93F07F2B73A4750040CD09 /* AddLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F07E2B73A4750040CD09 /* AddLocationCell.swift */; };
 		9B93F0812B73A47D0040CD09 /* AddLocationCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0802B73A47D0040CD09 /* AddLocationCellViewModel.swift */; };
+		9B93F0842B73AAC90040CD09 /* GeocodingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0832B73AAC90040CD09 /* GeocodingService.swift */; };
+		9B93F0862B73AAF10040CD09 /* GeocodingPreviewClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0852B73AAF10040CD09 /* GeocodingPreviewClient.swift */; };
+		9B93F0882B73AB1A0040CD09 /* GeocodingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0872B73AB1A0040CD09 /* GeocodingClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		9B93F07C2B73A2720040CD09 /* AddLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewModel.swift; sourceTree = "<group>"; };
 		9B93F07E2B73A4750040CD09 /* AddLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationCell.swift; sourceTree = "<group>"; };
 		9B93F0802B73A47D0040CD09 /* AddLocationCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationCellViewModel.swift; sourceTree = "<group>"; };
+		9B93F0832B73AAC90040CD09 /* GeocodingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingService.swift; sourceTree = "<group>"; };
+		9B93F0852B73AAF10040CD09 /* GeocodingPreviewClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingPreviewClient.swift; sourceTree = "<group>"; };
+		9B93F0872B73AB1A0040CD09 /* GeocodingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		9B93F0422B6C4A180040CD09 /* ThunderstormSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9B93F0822B73AABB0040CD09 /* Geocoding */,
 				9B93F0532B6C51030040CD09 /* App */,
 				9B93F05B2B6CF1D60040CD09 /* Models */,
 				9B93F0522B6C50F40040CD09 /* Views */,
@@ -195,6 +202,16 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		9B93F0822B73AABB0040CD09 /* Geocoding */ = {
+			isa = PBXGroup;
+			children = (
+				9B93F0832B73AAC90040CD09 /* GeocodingService.swift */,
+				9B93F0852B73AAF10040CD09 /* GeocodingPreviewClient.swift */,
+				9B93F0872B73AB1A0040CD09 /* GeocodingClient.swift */,
+			);
+			path = Geocoding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,14 +284,17 @@
 			files = (
 				9B93F07F2B73A4750040CD09 /* AddLocationCell.swift in Sources */,
 				9B93F0782B73A2370040CD09 /* AddLocationView.swift in Sources */,
+				9B93F0882B73AB1A0040CD09 /* GeocodingClient.swift in Sources */,
 				9B93F06B2B7272A90040CD09 /* CurrentConditionsViewModel.swift in Sources */,
 				9B93F0692B7272980040CD09 /* CurrentConditionsView.swift in Sources */,
 				9B93F07D2B73A2720040CD09 /* AddLocationViewModel.swift in Sources */,
+				9B93F0842B73AAC90040CD09 /* GeocodingService.swift in Sources */,
 				9B93F0812B73A47D0040CD09 /* AddLocationCellViewModel.swift in Sources */,
 				9B93F06D2B7272E30040CD09 /* ForecastView.swift in Sources */,
 				9B93F0712B727D860040CD09 /* ForecastCellViewModel.swift in Sources */,
 				9B93F0732B727DBB0040CD09 /* ForecastCell.swift in Sources */,
 				9B93F0612B7266DC0040CD09 /* LocationCell.swift in Sources */,
+				9B93F0862B73AAF10040CD09 /* GeocodingPreviewClient.swift in Sources */,
 				9B93F0572B6C520B0040CD09 /* LocationsView.swift in Sources */,
 				9B93F0442B6C4A180040CD09 /* ThunderstormSwiftUIApp.swift in Sources */,
 				9B93F05D2B6CF20B0040CD09 /* Location.swift in Sources */,
