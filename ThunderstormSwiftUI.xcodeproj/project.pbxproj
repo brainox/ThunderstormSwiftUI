@@ -111,9 +111,9 @@
 		9B93F0522B6C50F40040CD09 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9B93F0762B73A22A0040CD09 /* Add Location */,
-				9B93F0622B72710A0040CD09 /* Location */,
 				9B93F0542B6C51890040CD09 /* Locations */,
+				9B93F0622B72710A0040CD09 /* Location */,
+				9B93F0762B73A22A0040CD09 /* Add Location */,
 			);
 			path = Views;
 			sourceTree = "<group>";
