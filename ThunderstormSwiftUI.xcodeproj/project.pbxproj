@@ -23,6 +23,10 @@
 		9B93F06F2B7272EC0040CD09 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F06E2B7272EC0040CD09 /* ForecastViewModel.swift */; };
 		9B93F0712B727D860040CD09 /* ForecastCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0702B727D860040CD09 /* ForecastCellViewModel.swift */; };
 		9B93F0732B727DBB0040CD09 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0722B727DBB0040CD09 /* ForecastCell.swift */; };
+		9B93F0782B73A2370040CD09 /* AddLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0772B73A2370040CD09 /* AddLocationView.swift */; };
+		9B93F07D2B73A2720040CD09 /* AddLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F07C2B73A2720040CD09 /* AddLocationViewModel.swift */; };
+		9B93F07F2B73A4750040CD09 /* AddLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F07E2B73A4750040CD09 /* AddLocationCell.swift */; };
+		9B93F0812B73A47D0040CD09 /* AddLocationCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0802B73A47D0040CD09 /* AddLocationCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		9B93F06E2B7272EC0040CD09 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 		9B93F0702B727D860040CD09 /* ForecastCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCellViewModel.swift; sourceTree = "<group>"; };
 		9B93F0722B727DBB0040CD09 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		9B93F0772B73A2370040CD09 /* AddLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationView.swift; sourceTree = "<group>"; };
+		9B93F07C2B73A2720040CD09 /* AddLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewModel.swift; sourceTree = "<group>"; };
+		9B93F07E2B73A4750040CD09 /* AddLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationCell.swift; sourceTree = "<group>"; };
+		9B93F0802B73A47D0040CD09 /* AddLocationCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 		9B93F0522B6C50F40040CD09 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9B93F0762B73A22A0040CD09 /* Add Location */,
 				9B93F0622B72710A0040CD09 /* Location */,
 				9B93F0542B6C51890040CD09 /* Locations */,
 			);
@@ -165,6 +174,25 @@
 				9B93F0702B727D860040CD09 /* ForecastCellViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9B93F0762B73A22A0040CD09 /* Add Location */ = {
+			isa = PBXGroup;
+			children = (
+				9B93F0772B73A2370040CD09 /* AddLocationView.swift */,
+				9B93F07E2B73A4750040CD09 /* AddLocationCell.swift */,
+				9B93F07B2B73A2600040CD09 /* ViewModels */,
+			);
+			path = "Add Location";
+			sourceTree = "<group>";
+		};
+		9B93F07B2B73A2600040CD09 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9B93F07C2B73A2720040CD09 /* AddLocationViewModel.swift */,
+				9B93F0802B73A47D0040CD09 /* AddLocationCellViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B93F07F2B73A4750040CD09 /* AddLocationCell.swift in Sources */,
+				9B93F0782B73A2370040CD09 /* AddLocationView.swift in Sources */,
 				9B93F06B2B7272A90040CD09 /* CurrentConditionsViewModel.swift in Sources */,
 				9B93F0692B7272980040CD09 /* CurrentConditionsView.swift in Sources */,
+				9B93F07D2B73A2720040CD09 /* AddLocationViewModel.swift in Sources */,
+				9B93F0812B73A47D0040CD09 /* AddLocationCellViewModel.swift in Sources */,
 				9B93F06D2B7272E30040CD09 /* ForecastView.swift in Sources */,
 				9B93F0712B727D860040CD09 /* ForecastCellViewModel.swift in Sources */,
 				9B93F0732B727DBB0040CD09 /* ForecastCell.swift in Sources */,
