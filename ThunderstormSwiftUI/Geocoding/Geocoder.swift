@@ -5,4 +5,8 @@
 //  Created by Obinna on 08/02/2024.
 //
 
-import Foundation
+import CoreLocation
+
+protocol Geocoder {
+    func geocodeAddressString(_ addressString: String) async throws -> [CLPlacemark]
+}
