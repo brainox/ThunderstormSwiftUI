@@ -11,7 +11,7 @@ struct LocationsView: View {
     
     // MARK: - Properties
     
-    let viewmodel: LocationsViewModel
+    @ObservedObject private(set) var viewmodel: LocationsViewModel
     
     @State private var showsAddLocationView = false
     
@@ -41,6 +41,9 @@ struct LocationsView: View {
             .sheet(isPresented: $showsAddLocationView, content: {
                 AddLocationView(viewModel: viewmodel.addLocationViewModel, showsAddLocationView: $showsAddLocationView)
             })
+        }
+        .onAppear {
+            viewmodel.start()
         }
     }
 }

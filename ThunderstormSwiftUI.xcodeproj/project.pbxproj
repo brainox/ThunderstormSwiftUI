@@ -32,6 +32,7 @@
 		9B93F0882B73AB1A0040CD09 /* GeocodingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0872B73AB1A0040CD09 /* GeocodingClient.swift */; };
 		9B93F08A2B7522720040CD09 /* Geocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F0892B7522720040CD09 /* Geocoder.swift */; };
 		9B93F08D2B7523480040CD09 /* CLGeocoder+Geocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F08C2B7523480040CD09 /* CLGeocoder+Geocoder.swift */; };
+		9B93F08F2B7B40140040CD09 /* UserDefaults+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F08E2B7B40140040CD09 /* UserDefaults+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		9B93F0872B73AB1A0040CD09 /* GeocodingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingClient.swift; sourceTree = "<group>"; };
 		9B93F0892B7522720040CD09 /* Geocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geocoder.swift; sourceTree = "<group>"; };
 		9B93F08C2B7523480040CD09 /* CLGeocoder+Geocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLGeocoder+Geocoder.swift"; sourceTree = "<group>"; };
+		9B93F08E2B7B40140040CD09 /* UserDefaults+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				9B93F08C2B7523480040CD09 /* CLGeocoder+Geocoder.swift */,
+				9B93F08E2B7B40140040CD09 /* UserDefaults+Helpers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				9B93F0442B6C4A180040CD09 /* ThunderstormSwiftUIApp.swift in Sources */,
 				9B93F05D2B6CF20B0040CD09 /* Location.swift in Sources */,
 				9B93F08D2B7523480040CD09 /* CLGeocoder+Geocoder.swift in Sources */,
+				9B93F08F2B7B40140040CD09 /* UserDefaults+Helpers.swift in Sources */,
 				9B93F0642B72711C0040CD09 /* LocationView.swift in Sources */,
 				9B93F05A2B6C52BF0040CD09 /* LocationsViewModel.swift in Sources */,
 				9B93F06F2B7272EC0040CD09 /* ForecastViewModel.swift in Sources */,
