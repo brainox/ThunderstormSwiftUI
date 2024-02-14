@@ -95,11 +95,11 @@
 		9B93F0422B6C4A180040CD09 /* ThunderstormSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				9B93F08B2B75232C0040CD09 /* Extensions */,
 				9B93F0532B6C51030040CD09 /* App */,
 				9B93F05B2B6CF1D60040CD09 /* Models */,
 				9B93F0522B6C50F40040CD09 /* Views */,
 				9B93F0822B73AABB0040CD09 /* Geocoding */,
+				9B93F08B2B75232C0040CD09 /* Extensions */,
 				9B93F0512B6C50D60040CD09 /* Resources */,
 				9B93F0492B6C4A1A0040CD09 /* Preview Content */,
 			);
